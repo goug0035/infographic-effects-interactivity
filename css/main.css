@@ -1,0 +1,346 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  background-color: #0d526a;
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.title {
+  background-color: #000;
+  margin: 0;
+  padding: 0.5em;
+}
+
+.burp {
+  border: 2px;
+  border-style: dashed;
+}
+
+.numbers {
+  border: 2px;
+  border-style: dashed;
+}
+
+.calories {
+  border: 2px;
+  border-style: dashed;
+}
+
+.girl {
+  border: 2px;
+  border-style: dashed;
+}
+
+.avoid {
+  border: 2px;
+  border-style: dashed;
+}
+
+.title0 {
+  fill: #fff;
+}
+
+.title1 {
+  fill: #006c38;
+  animation: slide 500ms linear;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(7px, 0);
+  }
+}
+
+.title2 {
+  fill: #c4d82e;
+}
+
+.title3 {
+  fill: none;
+  stroke: #c4d82e;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+  animation: scale 500ms linear;
+}
+
+@keyframes scale {
+  0% {
+    transform-origin: center center;
+    transform: scale(.5);
+  }
+  100% {
+    transform-origin: center center;
+    transform: scale(1);
+  }
+}
+
+.title4 {
+  fill: #7fbb42;
+}
+
+.burp0 {
+  opacity: 0.88;
+  fill: #fff;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+}
+
+.green {
+  fill: #0d526a;
+  transition: all 500ms linear;
+}
+
+.green:hover {
+  fill: #7fbb42;
+}
+
+.burp2 {
+  fill: #fff;
+}
+
+.burp3 {
+  fill: #fff;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+}
+
+.burp4 {
+  fill: #c4d82e;
+  stroke: #c4d82e;
+  stroke-miterlimit: 10;
+}
+
+.burp5 {
+  fill: #009b9b;
+  stroke: #009b9b;
+  stroke-miterlimit: 10;
+}
+
+.burp6 {
+  fill: #009b9b;
+}
+
+.number0 {
+  fill: #fff;
+}
+
+.number1 {
+  fill: #008743;
+}
+
+.number2 {
+  fill: #006c38;
+}
+
+.number3 {
+  fill: #c4d82e;
+}
+
+.number4 {
+  fill: #51ba83;
+  stroke: #51ba83;
+  stroke-miterlimit: 10;
+}
+
+.number5 {
+  fill: #c4d82e;
+  stroke: #c4d82e;
+  stroke-miterlimit: 10;
+}
+
+.number6 {
+  fill: #fff;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+}
+
+.shake {
+  animation: shake 300ms linear;
+}
+
+@keyframes shake {
+  0% {
+    transform-origin: center;
+    transform: rotate(0deg);
+  }
+  25% {
+    transform-origin: center;
+    transform: rotate(40deg);
+  }
+  75% {
+    transform-origin: center;
+    transform: rotate(-40deg);
+  }
+  100% {
+    transform-origin: center;
+    transform: rotate(10deg);
+  }
+}
+
+.cals0 {
+  fill:#FFFFFF;
+}
+
+.move {
+  right: 75px;
+}
+
+.muffin {
+  transform: translate(0, 0);
+  transition: linear 300ms;
+}
+
+.cals1 {
+  fill:#51BA83;
+}
+
+.cals2 {
+  fill:#C4D82E;
+}
+
+.cals3 {
+  fill:#C4D82E;
+  stroke:#C4D82E;
+  stroke-width:1.097974e-02;
+  stroke-miterlimit:10;
+}
+
+.cals4 {
+  fill:#C4D82E;
+  stroke:#C4D82E;
+  stroke-miterlimit:10;
+}
+
+.cals5 {
+  fill:none;
+}
+
+.cals6 {
+  fill:#0D526A;
+  stroke:#C4D82E;
+  stroke-miterlimit:10;
+}
+
+.cals7 {
+  fill:#009B9B;
+  stroke:#009B9B;
+  stroke-miterlimit:10;
+}
+
+.girl0 {
+  fill:#FFFFFF;
+}
+
+.girl1 {
+  fill:none;
+}
+
+.girl2 {
+  fill:none;
+  stroke:#FFFFFF;
+  stroke-miterlimit:10;
+}
+
+.girl3 {
+  fill:#FFFFFF;
+  stroke:#FFFFFF;
+  stroke-width:0.3629;
+  stroke-miterlimit:10;
+}
+
+.girl4 {
+  fill:#FFFFFF;
+  stroke:#FFFFFF;
+  stroke-width:0.3983;
+  stroke-miterlimit:10;
+}
+
+.girl5 {
+  fill:#C4D82E;
+  stroke:#C4D82E;
+  stroke-width:8.680066e-02;
+  stroke-miterlimit:10;
+}
+
+.girl6 {
+  fill:#FFFFFF;
+  stroke:#FFFFFF;
+  stroke-width:0.3404;
+  stroke-miterlimit:10;
+}
+
+.girl7 {
+  fill:#FFFFFF;
+  stroke:#FFFFFF;
+  stroke-width:0.3529;
+  stroke-miterlimit:10;
+}
+
+.girl8 {
+  fill:#51BA83;
+}
+
+.avoid0 {
+  fill: #fff;
+}
+
+.avoid1 {
+  fill: none;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+}
+
+.avoid2 {
+  fill: none;
+}
+
+.avoid3 {
+  fill: #c4d82e;
+}
+
+.drop {
+  left: 170px;
+  position: relative;
+	width: 10px;
+	height: 10px;
+  top: -90px;
+  margin: 0 auto;
+	background: #FFF;
+	border-radius: 5px;
+  animation: drip 2s cubic-bezier(1,0,.91,.19) infinite;
+}
+
+.drop:before {
+  content: "";
+  position: absolute;
+  width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 20px solid rgba(255,255,255,1);
+  top: -15px;
+}
+
+@keyframes drip {
+    to {
+      top: 100px;
+    }
+}
