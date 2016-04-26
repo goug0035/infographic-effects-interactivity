@@ -177,40 +177,46 @@ html {
   stroke-miterlimit: 10;
 }
 
-.shake {
-  animation: shake 300ms linear;
+.coke {
+  opacity: 0;
+  transition: all 300ms linear;
 }
 
-@keyframes shake {
-  0% {
-    transform-origin: center;
-    transform: rotate(0deg);
-  }
-  25% {
-    transform-origin: center;
-    transform: rotate(40deg);
-  }
-  75% {
-    transform-origin: center;
-    transform: rotate(-40deg);
-  }
-  100% {
-    transform-origin: center;
-    transform: rotate(10deg);
-  }
+.wine {
+  opacity: 0;
+  transition: all 300ms linear;
+}
+
+.liq {
+  opacity: 0;
+  transition: all 300ms linear;
+}
+
+.pint {
+  opacity: 0;
+  transition: all 300ms linear;
+}
+
+.marga {
+  opacity: 0;
+  transition: all 300ms linear;
+}
+
+.pino {
+  opacity: 0;
+  transition: all 300ms linear;
+}
+
+.see {
+  opacity: 1;
 }
 
 .cals0 {
   fill:#FFFFFF;
 }
 
-.move {
-  right: 75px;
-}
-
 .muffin {
-  transform: translate(0, 0);
-  transition: linear 300ms;
+
 }
 
 .cals1 {
@@ -224,7 +230,7 @@ html {
 .cals3 {
   fill:#C4D82E;
   stroke:#C4D82E;
-  stroke-width: 1.097974e-02;
+  stroke-width: 1.097974;
   stroke-miterlimit:10;
 }
 
@@ -281,7 +287,7 @@ html {
 .girl5 {
   fill:#C4D82E;
   stroke:#C4D82E;
-  stroke-width:8.680066e-02;
+  stroke-width:8.680066 e-02;
   stroke-miterlimit:10;
 }
 
@@ -322,30 +328,15 @@ html {
 }
 
 .drop {
-  left: 170px;
-  position: relative;
-	width: 10px;
-	height: 10px;
-  top: -90px;
-  margin: 0 auto;
-	background: #FFF;
-	border-radius: 5px;
   animation: drip 2s cubic-bezier(1,0,.91,.19) infinite;
 }
 
-.drop:before {
-  content: "";
-  position: absolute;
-  width: 0;
-	height: 0;
-	border-left: 5px solid transparent;
-	border-right: 5px solid transparent;
-	border-bottom: 20px solid rgba(255,255,255,1);
-  top: -15px;
-}
 
 @keyframes drip {
-    to {
-      top: 100px;
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(100px);
     }
 }
