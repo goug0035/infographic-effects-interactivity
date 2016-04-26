@@ -96,11 +96,42 @@ html {
   fill: #7fbb42;
 }
 
-.burp0 {
-  opacity: 0.88;
-  fill: #fff;
-  stroke: #fff;
-  stroke-miterlimit: 10;
+.st0 {
+  opacity:0.88;
+  fill:#FFFFFF;
+  stroke:#FFFFFF;
+  stroke-miterlimit:10;
+  enable-background:new;
+}
+
+.st1 {
+  fill:#7FBB42;
+}
+
+.st2 {
+  fill:#FFFFFF;
+}
+
+.st3 {
+  fill:#FFFFFF;
+  stroke:#FFFFFF;
+  stroke-miterlimit:10;
+}
+
+.st4 {
+  fill:#C4D82E;
+  stroke:#C4D82E;
+  stroke-miterlimit:10;
+}
+
+.st5 {
+  fill:#009B9B;
+  stroke:#009B9B;
+  stroke-miterlimit:10;
+}
+
+.st6 {
+  fill:#009B9B;
 }
 
 .green {
@@ -110,32 +141,6 @@ html {
 
 .green:hover {
   fill: #7fbb42;
-}
-
-.burp2 {
-  fill: #fff;
-}
-
-.burp3 {
-  fill: #fff;
-  stroke: #fff;
-  stroke-miterlimit: 10;
-}
-
-.burp4 {
-  fill: #c4d82e;
-  stroke: #c4d82e;
-  stroke-miterlimit: 10;
-}
-
-.burp5 {
-  fill: #009b9b;
-  stroke: #009b9b;
-  stroke-miterlimit: 10;
-}
-
-.burp6 {
-  fill: #009b9b;
 }
 
 .number0 {
