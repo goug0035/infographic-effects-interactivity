@@ -61,9 +61,11 @@ html {
 }
 
 @keyframes slide {
+
   0% {
     transform: translate(0, 0);
   }
+
   100% {
     transform: translate(7px, 0);
   }
@@ -82,10 +84,12 @@ html {
 }
 
 @keyframes scale {
+
   0% {
     transform-origin: center center;
     transform: scale(.5);
   }
+
   100% {
     transform-origin: center center;
     transform: scale(1);
@@ -328,13 +332,15 @@ html {
 }
 
 .drop {
-  animation: drip 2s cubic-bezier(1,0,.91,.19) infinite;
+  animation: drip 2s cubic-bezier(1, 0, .91, .19) infinite;
 }
 
 @keyframes drip {
+
   0% {
     transform: translateY(0);
   }
+
   100% {
     transform: translateY(100px);
   }
