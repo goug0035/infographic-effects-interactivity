@@ -98,40 +98,40 @@ html {
 
 .st0 {
   opacity:0.88;
-  fill:#FFFFFF;
-  stroke:#FFFFFF;
+  fill:#fff;
+  stroke:#fff;
   stroke-miterlimit:10;
   enable-background:new;
 }
 
 .st1 {
-  fill:#7FBB42;
+  fill:#7fbb42;
 }
 
 .st2 {
-  fill:#FFFFFF;
+  fill:#fff;
 }
 
 .st3 {
-  fill:#FFFFFF;
-  stroke:#FFFFFF;
+  fill:#fff;
+  stroke:#fff;
   stroke-miterlimit:10;
 }
 
 .st4 {
-  fill:#C4D82E;
-  stroke:#C4D82E;
+  fill:#c4d82e;
+  stroke:#c4d82e;
   stroke-miterlimit:10;
 }
 
 .st5 {
-  fill:#009B9B;
-  stroke:#009B9B;
+  fill:#009b9b;
+  stroke:#009b9b;
   stroke-miterlimit:10;
 }
 
 .st6 {
-  fill:#009B9B;
+  fill:#009b9b;
 }
 
 .green {
@@ -212,7 +212,7 @@ html {
 }
 
 .cals0 {
-  fill:#FFFFFF;
+  fill:#fff;
 }
 
 .muffin {
@@ -220,23 +220,23 @@ html {
 }
 
 .cals1 {
-  fill:#51BA83;
+  fill:#51ba83;
 }
 
 .cals2 {
-  fill:#C4D82E;
+  fill:#c4d82e;
 }
 
 .cals3 {
-  fill:#C4D82E;
-  stroke:#C4D82E;
-  stroke-width: 1.097974;
+  fill:#c4d82e;
+  stroke:#c4d82e;
+  stroke-width: 1.0980;
   stroke-miterlimit:10;
 }
 
 .cals4 {
-  fill:#C4D82E;
-  stroke:#C4D82E;
+  fill:#c4d82e;
+  stroke:#c4d82e;
   stroke-miterlimit:10;
 }
 
@@ -245,19 +245,19 @@ html {
 }
 
 .cals6 {
-  fill:#0D526A;
-  stroke:#C4D82E;
+  fill:#0d526a;
+  stroke:#c4d82e;
   stroke-miterlimit:10;
 }
 
 .cals7 {
-  fill:#009B9B;
-  stroke:#009B9B;
+  fill:#009b9b;
+  stroke:#009b9b;
   stroke-miterlimit:10;
 }
 
 .girl0 {
-  fill:#FFFFFF;
+  fill:#fff;
 }
 
 .girl1 {
@@ -266,47 +266,47 @@ html {
 
 .girl2 {
   fill:none;
-  stroke:#FFFFFF;
+  stroke:#fff;
   stroke-miterlimit:10;
 }
 
 .girl3 {
-  fill:#FFFFFF;
-  stroke:#FFFFFF;
+  fill:#fff;
+  stroke:#fff;
   stroke-width:0.3629;
   stroke-miterlimit:10;
 }
 
 .girl4 {
-  fill:#FFFFFF;
-  stroke:#FFFFFF;
+  fill:#fff;
+  stroke:#fff;
   stroke-width:0.3983;
   stroke-miterlimit:10;
 }
 
 .girl5 {
-  fill:#C4D82E;
-  stroke:#C4D82E;
-  stroke-width:8.680066 e-02;
+  fill:#c4d82e;
+  stroke:#c4d82e;
+  stroke-width:8.6801 e-02;
   stroke-miterlimit:10;
 }
 
 .girl6 {
-  fill:#FFFFFF;
-  stroke:#FFFFFF;
+  fill:#fff;
+  stroke:#fff;
   stroke-width:0.3404;
   stroke-miterlimit:10;
 }
 
 .girl7 {
-  fill:#FFFFFF;
-  stroke:#FFFFFF;
+  fill:#fff;
+  stroke:#fff;
   stroke-width:0.3529;
   stroke-miterlimit:10;
 }
 
 .girl8 {
-  fill:#51BA83;
+  fill:#51ba83;
 }
 
 .avoid0 {
@@ -331,12 +331,11 @@ html {
   animation: drip 2s cubic-bezier(1,0,.91,.19) infinite;
 }
 
-
 @keyframes drip {
-    0% {
-      transform: translateY(0);
-    }
-    100% {
-      transform: translateY(100px);
-    }
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100px);
+  }
 }

@@ -5,7 +5,7 @@ var $liq = $('.liq');
 var $pint = $('.pint');
 var $marga = $('.marga');
 var $body = $('body');
-var $drinks = $('.drinks')
+var $drinks = $('.drinks');
 
 $drinks.waypoint(function () {
   $coke.addClass('see');
