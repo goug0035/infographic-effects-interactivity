@@ -5,30 +5,31 @@ var $liq = $('.liq');
 var $pint = $('.pint');
 var $marga = $('.marga');
 var $body = $('body');
+var $drinks = $('.drinks')
 
-$coke.waypoint(function () {
+$drinks.waypoint(function () {
   $coke.addClass('see');
-}, {offset: '50%'});
+}, {offset: '90%'});
 
-$pino.waypoint(function () {
+$drinks.waypoint(function () {
   $pino.addClass('see');
-}, {offset: '50%'});
+}, {offset: '80%'});
 
-$wine.waypoint(function () {
+$drinks.waypoint(function () {
   $wine.addClass('see');
-}, {offset: '50%'});
+}, {offset: '70%'});
 
-$liq.waypoint(function () {
+$drinks.waypoint(function () {
   $liq.addClass('see');
-}, {offset: '50%'});
+}, {offset: '60%'});
 
-$pint.waypoint(function () {
+$drinks.waypoint(function () {
   $pint.addClass('see');
 }, {offset: '50%'});
 
-$marga.waypoint(function () {
+$drinks.waypoint(function () {
   $marga.addClass('see');
-}, {offset: '50%'});
+}, {offset: '40%'});
 
 $body.on('click', function () {
   $('.muffin').toggleClass('move');
