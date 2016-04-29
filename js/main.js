@@ -32,5 +32,5 @@ $drinks.waypoint(function () {
 }, {offset: '40%'});
 
 $body.on('click', function () {
-  $('.muffin').toggleClass('move');
+  $coke.removeClass('muffin');
 });

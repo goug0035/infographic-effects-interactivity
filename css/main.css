@@ -221,6 +221,32 @@ html {
 
 .muffin {
   transform: translateX(400px);
+  transition: all 300ms linear;
+}
+
+.sausage {
+  transform: translateX(400px);
+  transition: all 300ms linear;
+}
+
+.pizza {
+  transform: translateX(400px);
+  transition: all 300ms linear;
+}
+
+.dounut {
+  transform: translateX(400px);
+  transition: all 300ms linear;
+}
+
+.cake {
+  transform: translateX(400px);
+  transition: all 300ms linear;
+}
+
+.burger {
+  transform: translateX(400px);
+  transition: all 300ms linear;
 }
 
 .cals1 {
