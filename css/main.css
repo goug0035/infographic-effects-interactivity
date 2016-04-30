@@ -140,7 +140,7 @@ html {
 
 .green {
   fill: #0d526a;
-  transition: all 500ms linear;
+  transition: all 600ms linear;
 }
 
 .green:hover {
